@@ -111,7 +111,7 @@ Copyright (C) 2017 Takayuki Sato
 This program is free software under [MIT][mit-url] License.
 See the file LICENSE in this distribution for more details.
 
-[repo-url]: https://github.com/sttk/fav-type/
+[repo-url]: https://github.com/sttk/fav-type.is-array/
 [npm-img]: https://img.shields.io/badge/npm-v0.5.0-blue.svg
 [npm-url]: https://www.npmjs.com/package/@fav/type.is-array
 [mit-img]: https://img.shields.io/badge/license-MIT-green.svg
@@ -120,4 +120,4 @@ See the file LICENSE in this distribution for more details.
 [travis-url]: https://travis-ci.org/sttk/fav-type.is-array
 [appveyor-img]: https://ci.appveyor.com/api/projects/status/github/sttk/fav-type.is-array?branch=master&svg=true
 [appveyor-url]: https://ci.appveyor.com/project/sttk/fav-type-is-array
-[main-url]: https://www.npmjs.com/package/@fav/type.is-array
+
