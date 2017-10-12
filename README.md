@@ -14,12 +14,9 @@ To install from npm:
 $ npm install --save @fav/type.is-array
 ```
 
-Or from github (when npm < 2.7.0 which is not support scoped package):
-
-```sh
-$ npm install --save sttk/fav-type.is-array#unscoped
-```
-
+<i>
+**NOTE:** npm < 2.7.0 does not support scoped package, but even old version Node.js supports it. So when you use such older npm, you should download this package from [github.com][repo-url], and move it in `node_modules/@fav/type.is-array/` direcotry manually.
+</i>
 
 ## Usage
 
@@ -27,13 +24,6 @@ For Node.js, when installing `@fav/type.is-array` from npm:
 
 ```js
 var isArray = require('@fav/type.is-array');
-isArray([1, 2, 3]); // => true
-```
-
-Or when installing `fav-type.is-array` from github:
-
-```js
-var isArray = require('fav-type.is-array');
 isArray([1, 2, 3]); // => true
 ```
 
