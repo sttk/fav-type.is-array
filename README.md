@@ -23,6 +23,7 @@ For Node.js, when installing `@fav/type.is-array` from npm:
 ```js
 var isArray = require('@fav/type.is-array');
 isArray([1, 2, 3]); // => true
+isArray.not([1, 2, 3]); // => false
 ```
 
 For Web browsers:
@@ -32,6 +33,7 @@ For Web browsers:
 <script>
 var isArray = fav.type.isArray;
 isArray([1, 2, 3]); // => true
+isArray.not([1, 2, 3]); // => false
 </script>
 ```
 
@@ -53,6 +55,24 @@ Checks if *value* is an array.
 #### Return:
 
 True, if *value* is an array.
+
+**Type:** boolean
+
+### <u>isArray.not(value) : boolean</u>
+
+Checks if *value* is not an array.
+
+> This function returns true for typed-arrays, e.g. Int16Array.
+
+#### Parameter:
+
+| Parameter |  Type  | Description               |
+|-----------|:------:|---------------------------|
+| value     | *any*  | The value to be checked.  |
+
+#### Return:
+
+True, if *value* is not an array.
 
 **Type:** boolean
 
