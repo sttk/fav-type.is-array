@@ -18,7 +18,7 @@ $ npm install --save @fav/type.is-array
 
 ## Usage
 
-For Node.js, when installing `@fav/type.is-array` from npm:
+For Node.js:
 
 ```js
 var isArray = require('@fav/type.is-array');
