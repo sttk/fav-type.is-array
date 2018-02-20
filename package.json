@@ -1,6 +1,6 @@
 {
   "name": "@fav/type.is-array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks whether a value is an array or not.",
   "main": "index.js",
   "files": [
